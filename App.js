@@ -37,7 +37,8 @@ export default function App() {
           if (json === null) {
             json = []
           }
-        })
+          setTodos(json)
+      })
     } catch (e) {
       console.log(e)
     }
